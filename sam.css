@@ -1,0 +1,169 @@
+body{
+    background-image: linear-gradient(to bottom right, gray, white);
+
+}
+.spo{
+    top: 10px; 
+    left:10px;
+     position: relative;
+     float: left; 
+    color: orangered;
+    text-shadow:  2px 3px 4px #00BBff;
+    font-size: 40px;
+}
+
+.row{
+    margin-top: 30px;
+    border-radius: 3px;
+}
+.btn{
+    height: 70px;
+    font-size: 20px;
+    color: darkblue;
+    margin-left: 15px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color:transparent;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: burlywood;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #our-story{
+    margin-left: 300px;
+    padding-top: 50px;
+    width: 600px;
+  }
+
+  #puff {
+    height: 100%;
+    background: -moz-linear-gradient(
+      -45deg,
+      #6b6e6e 0%,
+      #8eb0dd 100%
+    ); /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+      -45deg,
+      #727374 0%,
+      #8eb0dd 100%
+    ); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+      135deg,
+      #484849 0%,
+      #8eb0dd 100%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de437d', endColorstr='#5b44b9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  }
+  
+  #sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin 0.25s ease-out;
+    -moz-transition: margin 0.25s ease-out;
+    -o-transition: margin 0.25s ease-out;
+    transition: margin 0.25s ease-out;
+  }
+  
+  #sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+  }
+  
+  #sidebar-wrapper .list-group {
+    width: 15rem;
+  }
+  
+  #page-content-wrapper {
+    min-width: 100vw;
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+  }
+  
+  #menu-toggle {
+    cursor: pointer;
+  }
+  
+  .list-group-item {
+    border: none;
+    padding: 20px 30px;
+  }
+  
+  .list-group-item.active {
+    background-color: transparent;
+    color: var(--main-text-color);
+    font-weight: bold;
+    border: none;
+  }
+  
+  @media (min-width: 768px) {
+    #sidebar-wrapper {
+      margin-left: 0;
+    }
+  
+    #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+    }
+  
+    #wrapper.toggled #sidebar-wrapper {
+      margin-left: -15rem;
+    }
+}
+.img{
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+
+  

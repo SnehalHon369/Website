@@ -1,0 +1,99 @@
+.side_bar{
+    height: 100%;
+    position: fixed;
+    width: 250px;
+   
+}
+.logo{
+    position: relative;
+    margin-top: 20px;
+   
+}
+.spo_logo{
+    width: 30%;
+    height: 30%;
+    float: left;
+    
+}
+.side_page{
+    margin-top:0px;
+    margin-left:250px;
+    margin-right:20px;
+    width: 100%;
+    
+    
+}
+.cards{
+    margin-left: 250px;
+    width: 80%;
+    
+     
+}
+.container{
+  margin-left: 40px;
+}
+.container1{
+  
+  margin-left: 600px;
+  width: 80%;
+  position: relative;
+}
+
+#our-story{
+    padding-top: 50px;
+    margin-top:none;
+  }
+  #page-content-wrapper{
+    background-color: blue;
+    position: relative;
+  }
+  .graph{
+   
+    margin-left:250px;
+    margin-top:200px;
+    position: fixed;
+  }
+  .container3{
+    padding-top: 60px;
+    margin-bottom: ;
+    background-color: red;
+    width: 50%;
+    
+  }
+  .card-body{
+    width: fit-content;
+    position: relative;
+    padding-left: 0%;
+    margin-left: 10px;
+  }
+
+  body{
+   
+    position: relative;
+    background-image: linear-gradient(to bottom right, gray, white);
+  
+  }
+  .container-fluid{
+
+  }
+
+  .btn{
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    height: 100px;
+  }
+
+  #sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin 0.25s ease-out;
+    -moz-transition: margin 0.25s ease-out;
+    -o-transition: margin 0.25s ease-out;
+    transition: margin 0.25s ease-out;
+  }
+  
+  .block{
+    margin-left: 270px;
+    padding: 30px;
+  }
+  
